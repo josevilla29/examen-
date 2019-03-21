@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	padding: 20px 0;
+}
+
+#sec-slides{
+	background-image: url(../img/slide-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+	color:#FFFFFF;
+	height: 300px;
+	
+}
+
+
+#slides h1{
+	text-align: left;
+	color: orange;	
+	margin-top: 60px 0;
+	font-size: 70px;
+}
+
+#slides p{
+	text-align: left;
+	font-size: 30px;
+}
+
+
+
+#sec-services{
+	background-color: white;
+	text-align: center;
+	padding: 40px 0;
+}
+
+#sec-services h1{
+	color:#040E86;
+}
+
+.titulo::after{
+	content: '';
+	height: 1px;
+	background-color: #fff;
+	width: 100px;
+	display: block;
+	margin-top: 20px;
+}
+
+
+#welcome{
+	text-align: center;
+	padding-top: 30px 
+}
+
+#welcome h1{
+	color: #040E86;
+}
+
+#gallery{
+	background-color: #346CD0;
+	padding: 60px 0;
+	text-align: center
+}
+
+#gallery h1{
+	color: orange;
+
+}
+
+#gallery p{
+	color: white;
+}
+
+#clients{
+	text-align: center;
+	margin-bottom: 10px 0;
+}
+#clients h1{
+	color: #003375;
+}
+
+#scroll{
+	padding:100px 0;
+	color: black;
+	
+}
+#scroll .info-scroll{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+#scroll h3 .info-scroll h3{
+	font-size: 20px;
+	color: black;
+}
+#scroll .info-scroll h4{
+	font-size: 23px;
+	margin-top: 15px;
+	color: black;
+}
+#scroll .info-scroll p{
+	font-size: 15px;
+	margin-top: 10px;
+	color: black;
+}
+
+
+#footer {
+	padding-top: 60px 0;
+	background-color:#1478C7;
+	color: white;
+}
+
+
+
+
